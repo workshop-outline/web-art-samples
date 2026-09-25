@@ -1,0 +1,230 @@
+body {
+  padding: 100px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(#3b125a, #30338f, #7cb9f2);
+}
+
+.subtitle {
+  color: #afe7ff;
+  margin-top: -0px;
+  font-weight:400;
+
+}
+
+.bubble-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 240px;
+}
+.bubble{
+  padding: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba (255,255,255,0.2);
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  transition: transform 0.4s;
+ 
+}
+
+.bubble:hover{
+  transform: scale(1.14) rotate(-360deg);
+  box-shadow: 0 0 44px rgba(255, 255, 255, 0.6);
+}
+
+.sparkle {
+  width: 200px;
+  opacity: 0.6;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.oldphone {
+  width: 200px;
+  opacity: 0.6;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.earth{
+  width: 200px;
+  opacity: 0.6;
+  position: absolute;
+  
+}
+
+.apple{
+    width: 400px;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.AI{
+    width: 350px;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.media{
+    width: 350px;
+  opacity: 0.6;
+  position:absolute;
+  left: 400px;
+  z-index: 100;
+}
+
+.bubbly {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-image: url(images/bubbly.gif);
+  opacity: 0.2;
+}
+
+h1 {
+  color: aqua;
+}
+
+p {
+  color: lightblue;
+}
+
+.past {
+  background-color: #174761;
+}
+
+.noise {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity: 4;
+}
+
+.pastimgframe{
+  display: incline-block;
+  padding:44px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  backdrop-filter: blur(2px);
+  margin: 40px 0;
+}
+
+.pastmedia{
+  width: 450px;
+  max-width: 90%;
+}
+
+.backbutton{
+  display: incline-block;
+  margin-top: 30px;
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.24);
+  color: whitesmoke;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+}
+
+.present {
+  background: linear-gradient(135deg, #181842, #43021a);
+  color: white;
+  text-align: center;
+  padding: 60px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.present h1 {
+  color: #6edaf5;
+  text-shadow: 0 0 12px #fe5f99;
+  margin-bottom:22px;
+}
+
+.presentparagraph{
+  color: #8ce0fa;
+  max-width: 600px;
+  line-height: 4;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+
+
+.phone{
+  margin-top:44px;
+  background: rgba(255, 255, 255, 0.06);
+  padding:50px;
+  border-radius:90px;
+  display: inline-block;
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.94);
+}
+
+.phone:hover{
+  transform: translateY(-144px) scale(2);
+}
+
+.phoneimg{
+  width: 300px;
+  max-width: 90%;
+  border-radius: 14px;
+}
+
+.future {
+  position: relative;
+  background: url('images/glitch3.gif');
+  background-size: cover;
+  color: white;
+
+  animation: glitch 0.5 ease-in-out infinite;
+
+}
+
+.future h1 {
+  color:#00eaff;
+  text-shadow: 2px 0 #c300ff;
+  font-size: 44px;
+  position:relative;
+  animation: glitch 1.4s infinite;
+}
+
+
+.glitch-box {
+  border: 2px solid #00eaff;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 390px;
+}
+
+@keyframes glitch {
+  0% {transform: translate(0);}
+  40%{transform: translate(-5px, 100px);}
+  40%{transform:translate(20px, -44px);}
+  80%{transform:translate(-8px, -20px);}
+  80%{transform:translate(60px, 4px);}
+  100%{transform:translate(0);}
+}
+
+.glitch-text {
+  font-size: 20px;
+  color: whitesmoke;
+  letter-spacing: 144px;
+}
