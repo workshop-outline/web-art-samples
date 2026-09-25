@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- CSS responsible for animated GIF -->
+<style>
+    body {
+        background-image: url(../assets/space.gif);
+        background-repeat: repeat;
+    }
+
+    .kirby {
+        position: relative;
+        left: 100%;
+        animation: move 200s ease-out forwards 1;
+    }
+
+    @keyframes move {
+        0% {
+            top: 0;
+            left: -100%;
+        }
+
+        100% {
+            top: 0;
+            left: 7500%;
+        }
+    }
+
+</style>
+
+<body>
+    <div class="container">
+    <p class="kirby"> <img src="../assets/kirby.gif"> </p>
+    </div>
+
+    <p style="color:aliceblue">placeholders, 2002</p>
+    <p style="color:aliceblue">Catch the kirby!</p>
+    <p style="color:aliceblue">Just playing around with animations!</p>
+</body>
+</html>
