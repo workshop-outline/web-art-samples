@@ -1,0 +1,24 @@
+body {
+        background: rgb(89, 89, 88);
+    }
+    
+table {
+        width: 100%;
+    }
+
+li {
+        font-size: 1.2rem;
+        margin-top: 5%;
+        text-align: left;
+        list-style: none;
+    }
+
+td {
+        padding: 5px 5px;
+        vertical-align: top;
+        text-align: left;
+    }
+
+table, td {
+        border: 1px solid black;
+    }

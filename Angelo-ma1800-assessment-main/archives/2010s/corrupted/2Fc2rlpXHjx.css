@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:beige;
+}
+
+.poem {
+    margin: 50px 300px;
+}
+
+.about {
+    text-align: center;
+    background-color: rgb(51, 235, 204);
+    padding: 20px 20px;
+}
+
+/* Responsible for the hidden text interactions */
+
+.hidden {
+    opacity: 0%;
+}
+
+.hidden:hover {
+    opacity: 100%;
+    color: blue;
+}
+
+/* Styling for 'sea of links' */
+
+.links {
+    background-color: black;
+    width: 100%;
+}
+
+.links a {
+    font-size: 50px;
+}
+
+.links a:hover {
+    color:white;
+    font-size: 55px;
+}
+
+#true_link {
+    color:rgb(208, 188, 227)
+}
+
+#true_link:hover {
+    color:yellow;
+}
