@@ -1,0 +1,80 @@
+body{
+    background-color: lightpink;
+}
+.img1{
+    width:800px;
+    height: 50px;
+    margin: auto;
+}
+.img2{
+    width:200;
+    height:100;
+}
+.img3{
+    width: 200;
+    height: 100;
+}
+.img4{
+    width: 700;
+    height: 700;
+}
+.click1{
+    background-color: rgb(84, 84, 110);
+    color:aqua;
+font-size: large;
+width: 100px;
+height: 100px;
+top: 250px;
+right: 550px;
+position: absolute;
+}
+.click3{
+    background-color: rgb(18, 18, 207);
+    color:rgb(228, 153, 227);
+font-size: large;
+width: 100px;
+height: 100px;
+top: 350px;
+right: 400px;
+position: absolute;
+}
+.click4{
+    background-color: rgb(209, 26, 26);
+    color:rgb(167, 168, 158);
+font-size: large;
+width: 100px;
+height: 100px;
+top: 350px;
+right: 250px;
+position: absolute;
+}
+.click5{
+    background-color: rgb(190, 225, 35);
+    color:rgb(83, 50, 50);
+font-size: large;
+width: 100px;
+height: 100px;
+top: 250px;
+right: 400px;
+position: absolute;
+}
+.click6{
+    background-color: rgb(160, 107, 213);
+    color:rgb(208, 215, 155);
+font-size: large;
+width: 100px;
+height: 100px;
+top: 250px;
+right: 250px;
+position: absolute;
+}
+.click2{
+    background-color: rgb(242, 99, 220);
+    color:rgb(61, 183, 111);
+font-size: large;
+width: 100px;
+height: 100px;
+top: 350px;
+right: 550px;
+position: absolute;
+}
