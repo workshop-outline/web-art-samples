@@ -1,0 +1,65 @@
+body {
+      
+  background-color: black;   
+  /*stack overflow for checkerboard like background*/ 
+  
+  background-image: 
+    linear-gradient(45deg, maroon 25%, transparent 25%),
+    linear-gradient(-45deg, teal 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, maroon 75%),
+    linear-gradient(-45deg, transparent 75%, teal 75%);
+  
+  background-size: 50px 50px; 
+}
+
+
+/* background gradient 
+body {
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 8rem;
+    background: linear-gradient( rgb(214, 155, 230), rgb(214, 148, 236), rgb(174, 0, 255), teal);
+    background-size: 2048px, 1049px;
+    animation: gradient 1.5s ease infinite;
+    position: flex;
+    
+- not in use due to checkerboard background I believe fits this part of the aesthetic better. 
+ }
+*/
+
+
+  
+
+.vinyl {
+   position: absolute;
+   display: block;
+   text-align: center;
+   top: 200px;
+   left: 1500px;
+   width: 700px;
+
+  
+
+         animation: spin 3s linear infinite;
+  }
+
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+
+.prada {
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+
+/* IBM computer: bottom center */
+.ibm {
+  position: absolute;
+  top:700px;
+  left: 50%;              /* start at middle */
+  transform: translateX(-50%); 
+}
